@@ -6,11 +6,11 @@ class MainApplication(tk.Tk):
   def __init__(self,tasks=None):
     super().__init__()
 
-    self.title("Deica||Flow Sensor")
-    self.geometry("1000x700")
+    self.title("Pressure Sensors || DEICA Automatismos S.A. de C.V.")
+    self.geometry("800x480+0+0")
     self.resizable(0, 0)
 
-    self.back = tk.Frame(master=self, width=500, height=500, bg='black')
+    self.back = tk.Frame(master=self, width=800, height=480, bg='white')
     self.back.pack_propagate(0)
     self.back.pack(fill=tk.BOTH, expand=1)
 
